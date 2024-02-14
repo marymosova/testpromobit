@@ -1,0 +1,8 @@
+saika@saika-VirtualBox:~$ nodejs --version
+v12.22.9
+saika@saika-VirtualBox:~$ 
+
+saika@saika-VirtualBox:~$ nodejs -v
+v12.22.9
+saika@saika-VirtualBox:~$ 
+

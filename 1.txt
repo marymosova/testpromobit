@@ -1,0 +1,4 @@
+saika@saika-VirtualBox:~$ who
+saika    tty2         2024-02-12 18:32 (tty2)
+saika    pts/1        2024-02-12 21:35 (192.168.56.1)
+saika@saika-VirtualBox:~$

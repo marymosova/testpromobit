@@ -1,0 +1,11 @@
+saika@saika-VirtualBox:~$ curl 10.0.2.15
+asdasdas 
+saika@saika-VirtualBox:~$ curl -Is 10.0.2.15
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Mon, 12 Feb 2024 17:27:48 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+
+saika@saika-VirtualBox:~$ 
+

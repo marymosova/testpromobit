@@ -1,0 +1,18 @@
+nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset:>
+     Active: active (running) since Thu 2024-02-08 22:10:02 +06; 23s ago
+       Docs: man:nginx(8)
+    Process: 3143 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_proce>
+    Process: 3144 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (c>
+   Main PID: 3145 (nginx)
+      Tasks: 3 (limit: 5044)
+     Memory: 3.3M
+        CPU: 33ms
+     CGroup: /system.slice/nginx.service
+             ├─3145 "nginx: master process /usr/sbin/nginx -g daemon on; master>
+             ├─3146 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "">
+             └─3147 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "">
+
+фев 08 22:10:02 saika-VirtualBox systemd[1]: Starting A high performance web se>
+фев 08 22:10:02 saika-VirtualBox systemd[1]: Started A high performance web ser>
+

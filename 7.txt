@@ -1,0 +1,56 @@
+saika@saika-VirtualBox:~$ cd \test\
+> 
+saika@saika-VirtualBox:~/test$ .help
+Команда «.help» не найдена. Возможно, вы имели в виду:
+  command 'dhelp' from deb dhelp (0.6.27)
+Try: sudo apt install <deb name>
+saika@saika-VirtualBox:~/test$ node calc.js help
+[-] Error parsing arguments!
+saika@saika-VirtualBox:~/test$ node calc.js .help
+[-] Error parsing arguments!
+saika@saika-VirtualBox:~/test$ node calc.js --help
+This is the help page for calc.js!
+Usage: node calc.js "5 add 5" 
+Supported operations: +, -, *, /
+saika@saika-VirtualBox:~/test$ node calc.js "5 add 5"
+[-] Error parsing arguments!
+saika@saika-VirtualBox:~/test$ node calc.js "5 add 5"
+[-] Error parsing arguments!
+saika@saika-VirtualBox:~/test$ node calc.js "6-5"
+[+] Result: 1
+saika@saika-VirtualBox:~/test$ node calc.js "6-1"
+[+] Result: 5
+saika@saika-VirtualBox:~/test$ node calc.js "4*3"
+[+] Result: 12
+saika@saika-VirtualBox:~/test$ node calc.js "8/2"
+[+] Result: 4
+saika@saika-VirtualBox:~/test$ node calc.js "8/4"
+[+] Result: 2
+saika@saika-VirtualBox:~/test$ node calc.js "5+55"
+[-] Invalid numbers!
+saika@saika-VirtualBox:~/test$ node calc.js "6-11"
+[-] Invalid numbers!
+saika@saika-VirtualBox:~/test$ node calc.js "1-8"
+[+] Result: -7
+saika@saika-VirtualBox:~/test$ node calc.js "1-1"
+[+] Result: 0
+saika@saika-VirtualBox:~/test$ node calc.js "0-0"
+[+] Result: 0
+saika@saika-VirtualBox:~/test$ node calc.js "0*0"
+[+] Result: 0
+saika@saika-VirtualBox:~/test$ node calc.js "0/0"
+[+] Result: 1
+saika@saika-VirtualBox:~/test$ ^C
+saika@saika-VirtualBox:~/test$ ^C
+saika@saika-VirtualBox:~/test$ node calc.js "10*0"
+[+] Result: 0
+saika@saika-VirtualBox:~/test$ node calc.js "9*9"
+[+] Result: 81
+saika@saika-VirtualBox:~/test$ node calc.js "9+9"
+[+] Result: 18
+saika@saika-VirtualBox:~/test$ node calc.js "9-9"
+[+] Result: 0
+saika@saika-VirtualBox:~/test$ node calc.js "9/9"
+[+] Result: 1
+saika@saika-VirtualBox:~/test$ 
+
